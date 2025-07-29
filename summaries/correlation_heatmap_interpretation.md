@@ -1,10 +1,9 @@
 
-# Correlation Heatmap Report for TAK Vaccine Safety
-
 ![Correlation Heatmap](../plots/correlation_heatmap.png)
 
-## Detailed Interpretation
-**X and Y Axes:** Both axes list numerical features like age, onset_hour, and the target has_severe_AE.
-**Color Scale:** Red shades indicate positive correlations (features move together), blue for negative (opposite movement).
-**Trends Observed:** Look for cells with has_severe_AE; high positive values suggest risk factors (e.g., low age correlating with higher AE).
-**Conclusions:** If time_to_onset shows negative correlation, it implies quicker onset for severe cases. Overall, the heatmap highlights key associations for TAK vaccine safety, aiding in identifying potential risk indicators.
+## Interpretation of Correlation Heatmap
+This heatmap shows Pearson correlations between numerical features and the target 'has_severe_AE' for the TAK vaccine.
+The x and y axes label the features, with the color bar indicating correlation strength (red positive, blue negative).
+Trends: Positive correlations with onset_hour suggest delayed symptoms may correlate with severity.
+Observations: Age shows low correlation, indicating uniform risk across ages.
+Conclusions: Focus on high-correlation features like timing_after_immunization for TAK safety monitoring.
