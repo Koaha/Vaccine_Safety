@@ -1,10 +1,8 @@
 
-# SHAP Summary Plot Report for TAK Vaccine Safety
-
-![SHAP Summary](../plots/shap_summary.png)
-
-## Detailed Interpretation
-**X Axis:** SHAP value (impact on prediction; positive for higher severe AE probability).
-**Y Axis:** Features ranked by importance.
-**Trends Observed:** Dots colored by feature value; red high values pushing right indicate risk factors.
-**Conclusions:** Top features like age with positive SHAP for low values conclude younger patients at higher risk for TAK. Observe clustering for nuanced insights.
+# SHAP Summary Plot
+![SHAP](../plots/shap_summary.png)
+## Interpretation
+- **X-axis**: SHAP values; **Y-axis**: Features.
+- **Trends**: High age values (red) push negative, suggesting lower risk in elderly.
+- **Statistical Insight**: Mean SHAP for time_to_onset = {np.mean(np.abs(shap_values[:, X_test.columns.get_loc('time_to_onset')])):.4f}.
+- **Conclusion**: For TAK, short onset times are key risk drivers.

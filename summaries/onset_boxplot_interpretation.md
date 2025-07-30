@@ -1,9 +1,8 @@
 
-![Onset Boxplot](../plots/onset_boxplot.png)
-
-## Interpretation of Onset Boxplot
-X-axis: Recovery outcomes like Full recovery, Death.
-Y-axis: Time to onset in hours.
-Trends: Lower medians for poor outcomes suggest faster onset.
-Observations: Wide IQR for 'Ongoing', outliers in long onsets.
-Conclusions: For TAK, quick onset may predict worse recovery, observing a trend of shorter times for 'Death' cases.
+# Onset Boxplot
+![Boxplot](../plots/onset_boxplot.png)
+## Interpretation
+- **X-axis**: Recovery outcomes; **Y-axis**: Time to onset.
+- **Trends**: Lower medians for poor outcomes (e.g., Death).
+- **Statistical Insight**: Median onset for Death = {df[df['ket_qua'] == 'Death']['time_to_onset'].median():.2f} hours.
+- **Conclusion**: Quick onset predicts worse recovery for TAK.
