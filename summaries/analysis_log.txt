@@ -1,0 +1,416 @@
+2025-07-30 16:37:09,710 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 16:37:09,710 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 16:37:09,742 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 16:37:09,742 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 16:37:09,746 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 16:37:09,746 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 16:37:09,747 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 16:37:09,747 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 16:37:09,753 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 16:37:09,753 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 16:37:09,929 - INFO - Detected 5 outliers.
+2025-07-30 16:37:09,929 - INFO - Detected 5 outliers.
+2025-07-30 16:37:09,930 - INFO - Identifying and grouping targets...
+2025-07-30 16:37:09,930 - INFO - Identifying and grouping targets...
+2025-07-30 16:37:09,933 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 16:37:09,933 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 16:37:09,934 - INFO - Creating temporal features...
+2025-07-30 16:37:09,934 - INFO - Creating temporal features...
+2025-07-30 16:37:09,948 - INFO - Processing text with Sentence Transformers...
+2025-07-30 16:37:09,948 - INFO - Processing text with Sentence Transformers...
+2025-07-30 16:37:16,578 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 16:37:16,578 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 16:37:16,581 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 16:37:16,581 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 16:37:16,665 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 16:37:16,665 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 16:37:16,667 - INFO - Saved summary to association_stats.md
+2025-07-30 16:37:16,667 - INFO - Saved summary to association_stats.md
+2025-07-30 16:38:47,073 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 16:38:47,073 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 16:38:47,106 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 16:38:47,106 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 16:38:47,111 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 16:38:47,111 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 16:38:47,113 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 16:38:47,113 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 16:38:47,122 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 16:38:47,122 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 16:38:47,378 - INFO - Detected 5 outliers.
+2025-07-30 16:38:47,378 - INFO - Detected 5 outliers.
+2025-07-30 16:38:47,379 - INFO - Identifying and grouping targets...
+2025-07-30 16:38:47,379 - INFO - Identifying and grouping targets...
+2025-07-30 16:38:47,383 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 16:38:47,383 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 16:38:47,383 - INFO - Creating temporal features...
+2025-07-30 16:38:47,383 - INFO - Creating temporal features...
+2025-07-30 16:38:47,401 - INFO - Processing text with Sentence Transformers...
+2025-07-30 16:38:47,401 - INFO - Processing text with Sentence Transformers...
+2025-07-30 16:38:53,025 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 16:38:53,025 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 16:38:53,028 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 16:38:53,028 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 16:38:53,106 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 16:38:53,106 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 16:38:53,107 - INFO - Saved summary to association_stats.md
+2025-07-30 16:38:53,107 - INFO - Saved summary to association_stats.md
+2025-07-30 16:38:53,632 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 16:38:53,632 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 16:38:53,931 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 16:38:53,931 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 16:38:56,000 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 16:38:56,000 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 16:38:56,240 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 16:38:56,240 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 16:38:56,523 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 16:38:56,523 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 16:38:57,635 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 16:38:57,635 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 16:38:57,684 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 16:38:57,684 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 16:53:31,304 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 16:53:31,304 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 16:53:31,344 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 16:53:31,344 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 16:53:31,350 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 16:53:31,350 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 16:53:31,352 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 16:53:31,352 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 16:53:31,358 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 16:53:31,358 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 16:53:31,565 - INFO - Detected 5 outliers.
+2025-07-30 16:53:31,565 - INFO - Detected 5 outliers.
+2025-07-30 16:53:31,566 - INFO - Identifying and grouping targets...
+2025-07-30 16:53:31,566 - INFO - Identifying and grouping targets...
+2025-07-30 16:53:31,571 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 16:53:31,571 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 16:53:31,572 - INFO - Creating temporal features...
+2025-07-30 16:53:31,572 - INFO - Creating temporal features...
+2025-07-30 16:53:31,586 - INFO - Processing text with Sentence Transformers...
+2025-07-30 16:53:31,586 - INFO - Processing text with Sentence Transformers...
+2025-07-30 16:53:37,823 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 16:53:37,823 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 16:53:37,826 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 16:53:37,826 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 16:53:37,907 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 16:53:37,907 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 16:53:37,909 - INFO - Saved summary to association_stats.md
+2025-07-30 16:53:37,909 - INFO - Saved summary to association_stats.md
+2025-07-30 16:53:38,632 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 16:53:38,632 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 16:53:38,910 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 16:53:38,910 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 16:53:42,103 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 16:53:42,103 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 16:53:42,430 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 16:53:42,430 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 16:53:42,754 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 16:53:42,754 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 16:53:44,053 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 16:53:44,053 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 16:53:44,112 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 16:53:44,112 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 16:53:48,583 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 16:53:48,583 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:00:10,993 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 17:00:10,993 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 17:00:11,029 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 17:00:11,029 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 17:00:11,035 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 17:00:11,035 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 17:00:11,037 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 17:00:11,037 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 17:00:11,044 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 17:00:11,044 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 17:00:11,238 - INFO - Detected 5 outliers.
+2025-07-30 17:00:11,238 - INFO - Detected 5 outliers.
+2025-07-30 17:00:11,239 - INFO - Identifying and grouping targets...
+2025-07-30 17:00:11,239 - INFO - Identifying and grouping targets...
+2025-07-30 17:00:11,243 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 17:00:11,243 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 17:00:11,244 - INFO - Creating temporal features...
+2025-07-30 17:00:11,244 - INFO - Creating temporal features...
+2025-07-30 17:00:11,256 - INFO - Processing text with Sentence Transformers...
+2025-07-30 17:00:11,256 - INFO - Processing text with Sentence Transformers...
+2025-07-30 17:00:16,551 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 17:00:16,551 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 17:00:16,554 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 17:00:16,554 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 17:00:16,629 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 17:00:16,629 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 17:00:16,630 - INFO - Saved summary to association_stats.md
+2025-07-30 17:00:16,630 - INFO - Saved summary to association_stats.md
+2025-07-30 17:00:17,288 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 17:00:17,288 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 17:00:17,550 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 17:00:17,550 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 17:00:20,125 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 17:00:20,125 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 17:00:20,603 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 17:00:20,603 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 17:00:21,098 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 17:00:21,098 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 17:00:22,590 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 17:00:22,590 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 17:00:22,656 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 17:00:22,656 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 17:00:27,975 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:00:27,975 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:01:41,106 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 17:01:41,106 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 17:01:41,145 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 17:01:41,145 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 17:01:41,151 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 17:01:41,151 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 17:01:41,153 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 17:01:41,153 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 17:01:41,157 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 17:01:41,157 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 17:01:41,362 - INFO - Detected 5 outliers.
+2025-07-30 17:01:41,362 - INFO - Detected 5 outliers.
+2025-07-30 17:01:41,364 - INFO - Identifying and grouping targets...
+2025-07-30 17:01:41,364 - INFO - Identifying and grouping targets...
+2025-07-30 17:01:41,369 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 17:01:41,369 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 17:01:41,369 - INFO - Creating temporal features...
+2025-07-30 17:01:41,369 - INFO - Creating temporal features...
+2025-07-30 17:01:41,384 - INFO - Processing text with Sentence Transformers...
+2025-07-30 17:01:41,384 - INFO - Processing text with Sentence Transformers...
+2025-07-30 17:01:47,117 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 17:01:47,117 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 17:01:47,122 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 17:01:47,122 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 17:01:47,222 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 17:01:47,222 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 17:01:47,225 - INFO - Saved summary to association_stats.md
+2025-07-30 17:01:47,225 - INFO - Saved summary to association_stats.md
+2025-07-30 17:01:47,891 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 17:01:47,891 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 17:01:48,163 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 17:01:48,163 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 17:01:50,829 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 17:01:50,829 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 17:01:51,105 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 17:01:51,105 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 17:01:51,449 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 17:01:51,449 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 17:01:53,020 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 17:01:53,020 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 17:01:53,101 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 17:01:53,101 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 17:01:58,399 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:01:58,399 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:02:23,274 - INFO - Saved shap_summary.png
+2025-07-30 17:02:23,274 - INFO - Saved shap_summary.png
+2025-07-30 17:02:23,275 - INFO - Saved summary to shap_summary_interpretation.md
+2025-07-30 17:02:23,275 - INFO - Saved summary to shap_summary_interpretation.md
+2025-07-30 17:04:20,304 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 17:04:20,304 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 17:04:20,355 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 17:04:20,355 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 17:04:20,362 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 17:04:20,362 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 17:04:20,363 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 17:04:20,363 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 17:04:20,370 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 17:04:20,370 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 17:04:20,616 - INFO - Detected 5 outliers.
+2025-07-30 17:04:20,616 - INFO - Detected 5 outliers.
+2025-07-30 17:04:20,617 - INFO - Identifying and grouping targets...
+2025-07-30 17:04:20,617 - INFO - Identifying and grouping targets...
+2025-07-30 17:04:20,621 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 17:04:20,621 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 17:04:20,622 - INFO - Creating temporal features...
+2025-07-30 17:04:20,622 - INFO - Creating temporal features...
+2025-07-30 17:04:20,638 - INFO - Processing text with Sentence Transformers...
+2025-07-30 17:04:20,638 - INFO - Processing text with Sentence Transformers...
+2025-07-30 17:04:28,060 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 17:04:28,060 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 17:04:28,066 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 17:04:28,066 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 17:04:28,183 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 17:04:28,183 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 17:04:28,186 - INFO - Saved summary to association_stats.md
+2025-07-30 17:04:28,186 - INFO - Saved summary to association_stats.md
+2025-07-30 17:04:29,424 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 17:04:29,424 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 17:04:29,758 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 17:04:29,758 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 17:04:33,149 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 17:04:33,149 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 17:04:33,489 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 17:04:33,489 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 17:04:33,869 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 17:04:33,869 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 17:04:35,260 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 17:04:35,260 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 17:04:35,334 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 17:04:35,334 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 17:04:41,100 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:04:41,100 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:05:16,725 - INFO - Saved shap_summary.png
+2025-07-30 17:05:16,725 - INFO - Saved shap_summary.png
+2025-07-30 17:05:16,727 - INFO - Saved summary to shap_summary_interpretation.md
+2025-07-30 17:05:16,727 - INFO - Saved summary to shap_summary_interpretation.md
+2025-07-30 17:05:30,300 - INFO - Saved summary to kaplan_meier_interpretation.md
+2025-07-30 17:05:30,300 - INFO - Saved summary to kaplan_meier_interpretation.md
+2025-07-30 17:06:52,953 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 17:06:52,953 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 17:06:52,995 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 17:06:52,995 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 17:06:53,000 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 17:06:53,000 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 17:06:53,002 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 17:06:53,002 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 17:06:53,009 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 17:06:53,009 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 17:06:53,222 - INFO - Detected 5 outliers.
+2025-07-30 17:06:53,222 - INFO - Detected 5 outliers.
+2025-07-30 17:06:53,223 - INFO - Identifying and grouping targets...
+2025-07-30 17:06:53,223 - INFO - Identifying and grouping targets...
+2025-07-30 17:06:53,228 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 17:06:53,228 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 17:06:53,228 - INFO - Creating temporal features...
+2025-07-30 17:06:53,228 - INFO - Creating temporal features...
+2025-07-30 17:06:53,247 - INFO - Processing text with Sentence Transformers...
+2025-07-30 17:06:53,247 - INFO - Processing text with Sentence Transformers...
+2025-07-30 17:06:58,458 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 17:06:58,458 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 17:06:58,461 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 17:06:58,461 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 17:06:58,546 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 17:06:58,546 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 17:06:58,548 - INFO - Saved summary to association_stats.md
+2025-07-30 17:06:58,548 - INFO - Saved summary to association_stats.md
+2025-07-30 17:06:59,193 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 17:06:59,193 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 17:06:59,474 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 17:06:59,474 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 17:07:02,024 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 17:07:02,024 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 17:07:02,317 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 17:07:02,317 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 17:07:02,694 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 17:07:02,694 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 17:07:03,883 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 17:07:03,883 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 17:07:03,928 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 17:07:03,928 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 17:07:08,942 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:07:08,942 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:07:22,193 - INFO - Saved shap_summary.png
+2025-07-30 17:07:22,193 - INFO - Saved shap_summary.png
+2025-07-30 17:07:22,194 - INFO - Saved summary to shap_summary_interpretation.md
+2025-07-30 17:07:22,194 - INFO - Saved summary to shap_summary_interpretation.md
+2025-07-30 17:07:32,222 - INFO - Saved summary to kaplan_meier_interpretation.md
+2025-07-30 17:07:32,222 - INFO - Saved summary to kaplan_meier_interpretation.md
+2025-07-30 17:07:32,891 - INFO - ATE from PSM (allergy on severe AE): 0.0500
+2025-07-30 17:07:32,891 - INFO - ATE from PSM (allergy on severe AE): 0.0500
+2025-07-30 17:07:33,192 - INFO - Saved summary to psm_results.md
+2025-07-30 17:07:33,192 - INFO - Saved summary to psm_results.md
+2025-07-30 17:07:54,005 - WARNING - TMLE failed: Singular matrix
+2025-07-30 17:07:54,005 - WARNING - TMLE failed: Singular matrix
+2025-07-30 17:12:43,158 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 17:12:43,158 - INFO - Filtered to vaccine 'TAK' (originally TAK). Shape: (99, 64)
+2025-07-30 17:12:43,190 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 17:12:43,190 - INFO - Dropping 0 rows with all dates missing.
+2025-07-30 17:12:43,195 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 17:12:43,195 - INFO - Applied boundary clipping to age and onset_hour.
+2025-07-30 17:12:43,197 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 17:12:43,197 - WARNING - Found 0 invalid gender rows. Setting to unknown ('0','0').
+2025-07-30 17:12:43,202 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 17:12:43,202 - WARNING - Found 10 invalid timing rows. Dropping them.
+2025-07-30 17:12:43,415 - INFO - Detected 5 outliers.
+2025-07-30 17:12:43,415 - INFO - Detected 5 outliers.
+2025-07-30 17:12:43,416 - INFO - Identifying and grouping targets...
+2025-07-30 17:12:43,416 - INFO - Identifying and grouping targets...
+2025-07-30 17:12:43,421 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 17:12:43,421 - INFO - Created targets: has_severe_AE mean 0.26, severity score mean 1.51
+2025-07-30 17:12:43,421 - INFO - Creating temporal features...
+2025-07-30 17:12:43,421 - INFO - Creating temporal features...
+2025-07-30 17:12:43,437 - INFO - Processing text with Sentence Transformers...
+2025-07-30 17:12:43,437 - INFO - Processing text with Sentence Transformers...
+2025-07-30 17:12:49,788 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 17:12:49,788 - INFO - Severe AE rate for TAK vaccine: 25.84%
+2025-07-30 17:12:49,791 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 17:12:49,791 - INFO - AE rates by vaccine:
+vaccine_1_name
+TAK    0.258427
+Name: has_severe_AE, dtype: float64
+2025-07-30 17:12:49,873 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 17:12:49,873 - INFO - Chi-square p-values: {'vung_yk': 0.05662448402075768, 'female': 0.9501022405785167, 'male': 0.9501022405785167, 'di_ung_thuoc': 1.0, 'di_ung_thuoc_muc_do': 0.7276935113592335, 'di_ung_thuc_an': 1.0, 'di_ung_thuc_an_muc_do': 0.6186058609320964, 'di_ung_vaccine': 0.5327892243060797, 'di_ung_vaccine_muc_do': 0.4820206753450561, 'di_ung_khac': 0.32323461162674266}
+2025-07-30 17:12:49,874 - INFO - Saved summary to association_stats.md
+2025-07-30 17:12:49,874 - INFO - Saved summary to association_stats.md
+2025-07-30 17:12:50,519 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 17:12:50,519 - INFO - Saved summary to correlation_heatmap_interpretation.md
+2025-07-30 17:12:50,762 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 17:12:50,762 - INFO - Saved summary to age_violin_interpretation.md
+2025-07-30 17:12:52,936 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 17:12:52,936 - INFO - Saved summary to feature_pairplot_interpretation.md
+2025-07-30 17:12:53,249 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 17:12:53,249 - INFO - Saved summary to ae_rates_bar_interpretation.md
+2025-07-30 17:12:53,570 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 17:12:53,570 - INFO - Saved summary to onset_boxplot_interpretation.md
+2025-07-30 17:12:54,829 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 17:12:54,829 - INFO - Saved summary to age_histogram_interpretation.md
+2025-07-30 17:12:54,902 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 17:12:54,902 - INFO - Saved summary to sankey_interpretation.md
+2025-07-30 17:12:59,851 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:12:59,851 - INFO - Data split: Train (62, 425), Test (27, 425)
+2025-07-30 17:13:15,074 - INFO - Saved shap_summary.png
+2025-07-30 17:13:15,074 - INFO - Saved shap_summary.png
+2025-07-30 17:13:15,075 - INFO - Saved summary to shap_summary_interpretation.md
+2025-07-30 17:13:15,075 - INFO - Saved summary to shap_summary_interpretation.md
+2025-07-30 17:13:23,944 - INFO - Saved summary to kaplan_meier_interpretation.md
+2025-07-30 17:13:23,944 - INFO - Saved summary to kaplan_meier_interpretation.md
+2025-07-30 17:13:24,593 - INFO - ATE from PSM (allergy on severe AE): 0.0500
+2025-07-30 17:13:24,593 - INFO - ATE from PSM (allergy on severe AE): 0.0500
+2025-07-30 17:13:24,901 - INFO - Saved summary to psm_results.md
+2025-07-30 17:13:24,901 - INFO - Saved summary to psm_results.md
+2025-07-30 17:13:37,953 - WARNING - TMLE failed: Singular matrix
+2025-07-30 17:13:37,953 - WARNING - TMLE failed: Singular matrix
