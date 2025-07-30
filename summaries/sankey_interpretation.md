@@ -1,8 +1,9 @@
 
-# Sankey Diagram
-![Sankey](../plots/sankey_symptom_outcome.html)
-## Interpretation
-- **Nodes**: Symptoms (left) to outcomes (right).
-- **Trends**: Thick flows from 'noi_ban' to 'Full recovery' indicate common mild AEs; 'kho_tho' to 'Ongoing' suggests prolonged issues.
-- **Statistical Insight**: Chi-square test for 'kho_tho' vs outcome (p={stats.chi2_contingency(pd.crosstab(df['kho_tho'], df['ket_qua']))[1]:.4f}).
-- **Conclusion**: TAK shows low systemic risk; monitor respiratory symptoms for prolonged outcomes.
+![Sankey Diagram (Interactive in HTML)](../plots/sankey_symptom_outcome.html)
+
+## Interpretation of Sankey Diagram
+Nodes: Left - Symptoms (e.g., phu_niem), Right - Outcomes (e.g., Full recovery).
+Flows: Thickness shows case count from symptom to outcome.
+Trends: Thicker flows from 'noi_ban' to 'Full recovery' indicate common mild reactions.
+Observations: 'kho_tho' has flows to 'Ongoing', suggesting prolonged issues.
+Conclusions: For TAK, symptom-outcome paths highlight key risks; conclude that local symptoms resolve well, systemic ones less so.

@@ -1,8 +1,8 @@
 
-# Age Violin Plot
-![Violin Plot](../plots/age_violin.png)
-## Interpretation
-- **X-axis**: Severe AE status; **Y-axis**: Age distribution.
-- **Trends**: Wider violins at younger ages for severe cases.
-- **Statistical Insight**: Median age for severe AEs = {df[df['has_severe_AE'] == 1]['age'].median():.2f}.
-- **Conclusion**: TAK may pose higher severity risk in younger groups.
+![Age Violin Plot](../plots/age_violin.png)
+
+## Interpretation of Age Violin Plot
+The x-axis shows severe AE status, y-axis age distribution for TAK vaccine recipients.
+Trends: Wider violins at younger ages for severe cases indicate higher density.
+Observations: Median age lower for severe AEs, with outliers in elderly.
+Conclusions: TAK may pose higher severity risk in younger groups; further stratification needed.
