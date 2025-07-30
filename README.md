@@ -2,7 +2,7 @@
 
 ## Overview
 
-This project evaluates the safety of the TAK vaccine using a synthetic dataset of Serious Adverse Events (SAEs) from vaccine reports. The analysis follows a rigorous, data-driven approach to clean, explore, model, and interpret SAE data, aiming to identify risk factors, estimate adverse event probabilities, and assess causality. The workflow incorporates best practices in pharmacovigilance and data science as of 2025, leveraging advanced techniques like causal inference, survival analysis, and NLP to provide actionable insights for vaccine safety monitoring.
+This project evaluates the safety of the ABC vaccine using a synthetic dataset of Serious Adverse Events (SAEs) from vaccine reports. The analysis follows a rigorous, data-driven approach to clean, explore, model, and interpret SAE data, aiming to identify risk factors, estimate adverse event probabilities, and assess causality. The workflow incorporates best practices in pharmacovigilance and data science as of 2025, leveraging advanced techniques like causal inference, survival analysis, and NLP to provide actionable insights for vaccine safety monitoring.
 
 The project is implemented in Python, using libraries such as `pandas`, `scikit-learn`, `xgboost`, `causalml`, `lifelines`, `sentence-transformers`, and `plotly` for data processing, modeling, and visualization. The analysis produces detailed markdown reports and interactive visualizations to facilitate interpretation by stakeholders, including a Dash dashboard for dynamic exploration.
 
