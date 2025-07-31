@@ -1,13 +1,17 @@
 
-![Onset Boxplot](../plots/onset_boxplot.png)
+![Boxplot Recovery](../plots/onset_boxplot.png)
 
-## Interpretation of Onset Boxplot
-X-axis: Recovery outcomes like Full recovery, Death.
+## Interpretation: Time to Onset by Recovery Outcome
 
-Y-axis: Time to onset in hours.
+This boxplot visualizes how **onset timing** (in hours post-vaccination) relates to different **clinical recovery outcomes**.
 
-**Trends:** Lower medians for poor outcomes suggest faster onset.
+### Key Observations:
 
-**Observations:**: Wide IQR for 'Ongoing', outliers in long onsets.
+- **Poor outcomes** like *Death* and *Ongoing* have **shorter median onset times**, often clustering near the lower quartile.
+- **Full recovery** cases are more widely spread, with **higher medians and larger IQR**, indicating more delayed symptom onset.
+- **Outliers** (dots beyond whiskers) appear more frequently in the *Ongoing* group, showing variability in atypical cases.
 
-**Conclusions:** For TAK, quick onset may predict worse recovery, observing a trend of shorter times for 'Death' cases.
+### Conclusion:
+
+- **Faster onset of symptoms** is strongly associated with **worse clinical prognosis**.
+- Onset time may be a useful **prognostic marker** for early triage and intervention.

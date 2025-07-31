@@ -1,13 +1,28 @@
 
 ![Correlation Heatmap](../plots/correlation_heatmap.png)
 
-## Interpretation of Correlation Heatmap
-This heatmap shows Pearson correlations between numerical features and the target 'has_severe_AE' for the TAK vaccine.
+# Correlation Heatmap: Numerical Features and Severe AE
 
-The x and y axes label the features, with the color bar indicating correlation strength (red positive, blue negative).
+## Method
+- Pearson correlation matrix for all numerical variables.
+- Target column: `has_severe_AE`
 
-**Trends:** Positive correlations with onset_hour suggest delayed symptoms may correlate with severity.
+## Observations
 
-**Observations:**: Age shows low correlation, indicating uniform risk across ages.
+### Strongest Positive Correlations with AE Severity:
+None detected
 
-**Conclusions:** Focus on high-correlation features like timing_after_immunization for TAK safety monitoring.
+### Strongest Negative Correlations:
+None detected
+
+### Feature Interactions:
+- Strong correlation observed between `ae_duration` and `time_to_onset` — prolonged AEs typically have delayed onset.
+- Some time indices (e.g., `vaccine_1_hour`) show moderate correlation with severity.
+
+## Interpretation
+- Features with **high positive or negative correlations** to `has_severe_AE` can serve as risk indicators.
+- Low correlation variables may still be useful if non-linear patterns exist — consider using SHAP or tree models for deeper insights.
+
+## Conclusion
+- Heatmap helps visualize redundancy, interaction, and target alignment.
+- Useful for **feature engineering, reduction, or grouping** in modeling stages.

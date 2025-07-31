@@ -1,11 +1,19 @@
 
-![Age Histogram (Interactive in HTML)](../plots/age_histogram.html)
+[Interactive Age Histogram](../plots/age_histogram.html)
 
-## Interpretation of Interactive Age Histogram
-X-axis: Age bins, y-axis: Count, colored by AE status for TAK.
+## Interpretation: Age Distribution and Severe AE Risk
 
-**Trends:** Higher bars in mid-ages for non-severe, peaks in young for severe.
+This interactive histogram compares the **age distribution** of patients who experienced **severe adverse events (AEs)** vs. those who did not.
 
-**Observations:**: Box marginal shows median age ~40, with severe skewed low.
+### Key Observations:
 
-**Conclusions:** TAK safety varies by age; target young for monitoring.
+- The **green bars** (non-severe) span a broad age range, while the **orange bars** (severe) peak in **younger age bins**.
+- The **box marginal** on top reveals:
+  - **Lower median age** for severe AE group
+  - **More tightly packed IQR**, indicating younger clustering
+- The **distribution overlap** suggests partial age dependence, but not fully exclusive.
+
+### Conclusion:
+
+- Age is a **contributing factor** in AE severity risk, particularly **in patients under 30**.
+- This visual reinforces the need for stratified AE monitoring by age.
