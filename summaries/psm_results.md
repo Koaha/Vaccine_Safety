@@ -1,6 +1,15 @@
 
-# PSM Causal Inference Results
+# Propensity Score Matching (PSM)
 
-ATE: {ate:.4f}
+**Method**: Logistic regression used to estimate propensity scores for having allergy.
 
-<image-card alt="PSM Distribution" src="../plots/psm_distribution.png" ></image-card>
+**Matching**: 1:1 nearest neighbor matching using KDTree.
+
+**ATE Estimate**: 0.0500
+
+![PSM Distribution](../plots/psm_distribution.png)
+
+**Interpretation**:
+- PSM estimates the average treatment effect by comparing matched individuals.
+- ATE > 0 suggests allergy increases risk of severe AE.
+    
