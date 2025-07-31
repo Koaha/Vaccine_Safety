@@ -1,6 +1,15 @@
 import logging
 import colorlog
 import os
+import timeit
+
+def timed_func(func):
+    def wrapper(*args, **kwargs):
+        start = timeit.default_timer()
+        result = func(*args, **kwargs)
+        logger.info(f"{func.__name__} took {timeit.default_timer() - start:.2f}s")
+        return result
+    return wrapper
 
 def setup_logging():
     """Set up colored logging with file handler."""

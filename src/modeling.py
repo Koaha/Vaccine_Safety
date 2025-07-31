@@ -327,12 +327,12 @@ def perform_rfe(X_train, y_train):
 
     # Markdown table
     lines = [
-        "| Feature | Ranking | Selected |",
-        "|---------|---------|----------|"
+        "| Feature | Ranking | Selected |","|---------|---------|----------|"
     ]
     for _, row in ranking_df.iterrows():
-        selected_mark = "✅" if row["Selected"] else ""
-        lines.append(f"| {row['Feature']} | {int(row['Ranking'])} | {selected_mark} |")
+        if row["Selected"]:
+            selected_mark = "✅"
+            lines.append(f"| {row['Feature']} | {int(row['Ranking'])} | {selected_mark} |")
     
     table_md = "\n".join(lines)
 
